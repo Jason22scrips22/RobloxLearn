@@ -1,0 +1,25 @@
+-- Main Library Source
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+ 
+-- Window or baseplate Make tab or section
+
+local Window = Library:NewWindow("Roblox learn")
+ 
+-- Section - Section Usefull you don't want ok?
+
+local Section = Window:NewSection("Main")
+ 
+-- Button Add Scripts in it
+
+Section:CreateButton("Tp to final obby", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/RobloxItemSilverBlock/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+-- Button Add Scripts in it
+
+Section:CreateButton("copy YT: Jason22scripts", function()
+setclipboard("https://www.youtube.com/@Jason22scripts22")
+toclipboard("https://www.youtube.com/@Jason22scripts22")
+print("Clicked")
+end)
